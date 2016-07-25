@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="mvc5paypal" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\clova\\documents\\visual\ studio\ 2013\\Projects\\IPNpaypal\\IPNpaypal\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\clova\\documents\\visual\ studio\ 2013\\Projects\\IPNpaypal\\IPNpaypal\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-IPNpaypal-20160707061901.mdf;Initial Catalog=aspnet-IPNpaypal-20160707061901;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\clova\\documents\\visual\ studio\ 2013\\Projects\\IPNpaypal\\IPNpaypal\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>

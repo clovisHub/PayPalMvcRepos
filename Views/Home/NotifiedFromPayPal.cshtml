@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "NotifiedFromPayPal";
+}
+
+<h2>NotifiedFromPayPal</h2>
+
+@if (ViewBag.error != null)
+{
+    <label>This is the error :</label> @ViewBag.error
+    
+}
+else 
+{
+    <label>your transaction number is :</label>  @ViewBag.result <br />
+    <br />
+    <br />
+    <label>your string content :</label> @ViewBag.streamIn
+    <br />
+    <br />
+    <label> You paid :</label> @ViewBag.amount    
+    <br />
+    <br />
+    <label>your order id is :</label>  @ViewBag.orderId    <br />
+
+    <label>your transaction number is :</label>  @ViewBag.Item_name <br />
+    <br />
+    <br />
+    <label>your string content :</label> @ViewBag.Item_number
+    <br />
+    <br />
+    <label> You paid :</label> @ViewBag.Payment_amount
+    <br />
+    <br />
+    <label>your order id is :</label>  @ViewBag.Payment_status    <br />
+
+    //ViewBag.result = Request.QueryString.Get("tx");
+    //ViewBag.Item_name = Request["item_name"];
+    //ViewBag.Item_number = Request["item_number"];
+    //ViewBag.Payment_status = Request["payment_status"];
+    //ViewBag.Payment_amount = Request["mc_gross"];
+    //ViewBag.Payment_currency = Request["mc_currency"];
+    //ViewBag.Txn_id = Request["txn_id"];
+    //ViewBag.Receiver_email = Request["receiver_email"];
+    //ViewBag.Payer_email = Request["payer_email"];
+}
+
+
